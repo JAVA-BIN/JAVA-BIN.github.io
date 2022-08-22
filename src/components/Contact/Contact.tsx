@@ -22,7 +22,10 @@ function Contact() {
                         <p>{contactInfo.subTitle}</p>
                     </div>
                     <div className="contact-introduce">
-                        <p>{contactInfo.introduce}</p>
+                        <p>{contactInfo.email}</p>
+                    </div>
+                    <div className="contact-introduce">
+                        <p>{contactInfo.phone}</p>
                     </div>
                     <div className="social-links">
                         <Social />
