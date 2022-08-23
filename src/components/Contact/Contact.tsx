@@ -15,7 +15,7 @@ function Contact() {
             <div className="inner">
                 
                 <div className="profile-img">
-                    <img src={require("../../assets/your photo.png")} alt="profile" />
+                    <img src={require("../../assets/bin.jpeg")} alt="profile" />
                 </div>
                 <div className="wrapper-inner">
                     <div className="contact-subtitle">

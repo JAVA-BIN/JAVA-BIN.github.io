@@ -9,7 +9,7 @@ export const greeting = {
 	 	emoji("🛖 주거지 | 서울특별시 강서구"),
 		emoji("‍🐯 학교 | 고려대학교 전기전자컴퓨터공학과(석사)"),
 	],
-	role: "Thank you for your visit 🇰🇷🇯🇵🇨🇦",
+	role: "Thank you for your visit",
 	resumeLink: "Your resume link... google drive or something else",
 	// IMPORTANT
 	// If you don't want to show this, change view to false. DO NOT DELETE!
@@ -56,11 +56,12 @@ export const skills = {
 
 	],
 	describeSkills: [
-		emoji("✏️ describe first"),
-		emoji("✏️ describe second"),
-		emoji("✏️ describe third"),
-		emoji("✏️ describe forth"),
-		emoji("✏️ describe fifth"),
+		emoji("✏️ Use Java with Spring"),
+		emoji("✏️ Use Angular"),
+		emoji("✏️ Use GitHub / GitLab / BitBucket"),
+		emoji("✏️‍ Use Docker"),
+		emoji("💪 Try Vmware / AWS / Kubernetes / vue.js / react"),
+		emoji("🌎 Speack Korean  🇰🇷 / Japanese 🇯🇵 / English 🇨🇦"),
 	],
 	view: true
 };
@@ -76,7 +77,7 @@ export const experience = {
 		{
 			role: "ABL U2L Project",
 			company: "Full-Stack Developer (Crossent)",
-			date: "2020.08 ~ 2020.11"
+			date: "2020.06 ~ 2020.07"
 		},
 		{
 			role: "한전 허브팝 Project",
@@ -99,21 +100,52 @@ export const experience = {
 			date: "2022.02 ~ 2022.05"
 		},
 		{
-			role: "Openstack Solution 개발",
+			role: "private Cloud 개발",
 			company: "Back-End Developer (Okestro)",
 			date: "2022.06 ~ present"
-		}
+		},
 	],
 	view: true
 }
 
 export const achievements = {
-	title: emoji("Certifications 🏆"),
-	subTitle: "나의 소중한 자격증..",
-	lists: [
+	achievementTitle: emoji("Achievements 🇰🇷 🇯🇵 🇨🇦"),
+	achievementList: [
 		{
-			title: "🏆 운전면허 자격증",
+			title: "🇯🇵 Shurin Japanese School",
+			desc: "(2015.01 ~ 2015.02)"
+		},
+		{
+			title: "🇯🇵 Working Holiday",
+			desc: "(2015.07 ~ 2017.05)"
+		},
+		{
+			title: "🇨🇦 OHC Calgary",
+			desc: "(2017.05 ~ 2017.07)"
+		},
+		{
+			title: "🇨🇦 Working Holiday",
+			desc: "(2017.05 ~ 2019.02)"
+		},
+		{
+			title: "🇰🇷 부산 IT 교육센터",
+			desc: "(2019.06 ~ 2020.01)"
+		},
+
+	],
+	certificationTitle: emoji("Certifications 🏆"),
+	certificationList: [
+		{
+			title: "🏆 운전면허 1종보통",
 			desc: "(2010.07)"
+		},
+		{
+			title: "🏆 SKI LEVEL 1 🇰🇷",
+			desc: "(2013.02)"
+		},
+		{
+			title: "🏆 SNOW BOARD LEVEL 1 🇰🇷",
+			desc: "(2013.02)"
 		},
 		{
 			title: "🏆 MOS MASTER",
@@ -124,9 +156,21 @@ export const achievements = {
 			desc: "(2014.04)"
 		},
 		{
+			title: "🏆 무역관리사",
+			desc: "(2014.09)"
+		},
+		{
+			title: "🏆 SKI TEACHING 1 🇰🇷",
+			desc: "(2017.03)"
+		},
+		{
+			title: "🏆 SKI LEVEL 2 🇨🇦",
+			desc: "(2018.12)"
+		},
+		{
 			title: "🏆 정보처리기사",
 			desc: "(2019.11)"
-		},
+		}
 	],
 	view: true
 }

@@ -7,7 +7,7 @@ import Achievement from './Achievement/Achievement';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import Experience from './Experience/Experience';
-import { greeting, skills, experience, achievements, contactInfo } from '../portfolio';
+import {greeting, skills, experience, achievements, contactInfo} from '../portfolio';
 
 function Main() {
 	return (
