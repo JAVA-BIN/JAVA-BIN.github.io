@@ -61,7 +61,7 @@ export const skills = {
 		emoji("✏️ Use GitHub / GitLab / BitBucket"),
 		emoji("✏️‍ Use Docker"),
 		emoji("💪 Try Vmware / AWS / Kubernetes / vue.js / react"),
-		emoji("🌎 Speack Korean  🇰🇷 / Japanese 🇯🇵 / English 🇨🇦"),
+		emoji("🌎 Speak Korean  🇰🇷 / Japanese 🇯🇵 / English 🇨🇦"),
 	],
 	view: true
 };
