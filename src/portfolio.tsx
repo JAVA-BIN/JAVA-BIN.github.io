@@ -37,14 +37,20 @@ export const skills = {
 		{fontAwesome: "fab fa-java", text: "JAVA", proficiency: 80},
 		{fontAwesome: "fab fa-envira", text: "SPRING", proficiency: 80},
 		{fontAwesome: "fab fa-angular", text: "ANGULAR", proficiency: 70},
-		{fontAwesome: "fab fa-github-alt", text: "GITHUB", proficiency: 80},
+		{fontAwesome: "fab fa-github", text: "GITHUB", proficiency: 80},
 		{fontAwesome: "fab fa-gitlab", text: "GITLAB", proficiency: 70},
 		{fontAwesome: "fab fa-bitbucket", text: "BITBUCKET", proficiency: 60},
+		{fontAwesome: "fab fa-atlassian", text: "ATLASSIAN", proficiency: 60},
+		{fontAwesome: "fab fa-confluence", text: "CONFLUENCE", proficiency: 60},
+		{fontAwesome: "fab fa-jira", text: "JIRA", proficiency: 60},
+		{fontAwesome: "fab fa-linux", text: "LINUX", proficiency: 70},
 		{fontAwesome: "fab fa-docker", text: "DOCKER", proficiency: 85}
 
 	],
 	subTitle: "✔ Sub Skills",
 	subLists: [
+		{fontAwesome: "fab fa-jenkins", text: "JENKINS", proficiency: 60},
+		{fontAwesome: "fab fa-python", text: "PYTHON", proficiency: 50},
 		{fontAwesome: "fab fa-js", text: "JS", proficiency: 50},
 		{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 70},
 		{fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 40}
@@ -53,7 +59,6 @@ export const skills = {
 	language: "✔ Language Skills",
 	languageLists: [
 		{fontAwesome: "fab fa-canadian-maple-leaf", text: "ENGLISH", proficiency: 75}
-
 	],
 	describeSkills: [
 		emoji("✏️ Use Java with Spring"),
